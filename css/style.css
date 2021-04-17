@@ -1,100 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+}
+
+.Header{
+    width: 200x;
+    position: relative;
+    left: 80px;
+    bottom: 80px;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+}
 
 
+.par1{
+    position: relative;
+    bottom: 10px;
+}
 
-body{
-    width: auto;
-    margin: 50px;
+.headerIMG {
+    position: absolute;
+    right:60px ;
+    top: 20px;
 
 }
 
-header nav ul li {
-    float: right;
-   
-   
-}
-#pp{
-    float: left;
-    width: 40px;
-    margin: 7px;
+ul li {
+    display: inline;
+    list-style:none;
 }
 
+.hr{
+    height: 20px;
+    background-image : url("https://github.com/LTUC/amman-201d14/blob/main/class-10/lab-a/lab-assets/hr-img.png?raw=true");
+    background-repeat : repeat;
 
- ul li  {
-    float: right;
-    display: block;
-     margin: 2px; 
-    margin-top: 30px;
+}
+
+.write{
+    font-family: 'Teko', sans-serif;
+    font-size:xx-large;
+
+}
+.color{
+    color: lightgray;
+    position:absolute;
+    top: 60px;
+}
+main{
+    position: relative;
+    
+}
+main  div img{
+position: absolute;
+width:40px;
+right:60px;
+top:15px;
+
+}
+
+main img{
+    width: 100%;
     
 }
 
-
-
- h2{
-    display: block;
-    margin-top: 6px;
-    font-size: x-large;
-    font-style: italic;
-    margin-bottom: 0px;
-    float:left
-}
-
-
-p{
-    display: block;
-    font-size: small;
-    margin-left: 55px;
-    float: left;
+.print{
     position: absolute;
+    top: 55px;
 }
-#p2{
-    color: black;
-    width: 1490px;
-    height: 20px;
-    margin-bottom: 20px;
-    background-repeat: repeat;
-    background-image: url(https://github.com/yahyaalbashar/amman-201d15/blob/main/class-10/lab-a/lab-assets/hr-img.png?raw=true);
-}
-
-h1{
-    color: brown;
-    margin-bottom: 0px;
-    font-size: x-large;
-}
-
-body main h2 {
-    display: inline-block;
-    color: black;
-    margin-top: 2px;
+.pr{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    color: lightgray;
 
 }
-#a2 {
-    margin-top: 2px;
-    float: right;
-    color: black;
-    font-size: 16px;
-}
-
-#p3{
-    width: 1222px;
-    height: 1222px;
+.h2{
+    font-size:80px;
 }
 
 .c{
     font-size: medium;
     color: black;
     text-indent: 50px;
+    font-size: xx-large;
    
 
+    
 }
 #f2 {
 float: left;
 margin-left: 140px ;
 margin-right: 50px;
-font-size:large;
+font-size:x-large;
 }
 
 main section form{
-    font-size: large;
+    font-size: x-large;
     margin: 3px;
 }
 
@@ -114,73 +124,65 @@ button{
     border-color: lightgray;
 }
 
-footer{
-   
-    clear: both;
-    height: 200px;
-    text-align: center;
-}
-footer img{
-
-    float: left;
+#sugar{
+    text-decoration: line-through;
 }
 
-footer p{
-    font-size: medium;
-    padding: 5px;
-    text-align: right;
-}
-hr{
-height: 10px;
-background-image: url(https://github.com/yahyaalbashar/amman-201d15/blob/main/class-10/lab-a/lab-assets/hr-img.png?raw=true);
-}
-
-
-footer img{
-    width: 100px;
-
+footer  img{
+    width:100px;
+    
 }
 footer{
     position: relative;
 }
-footer section h3{
-    position: absolute;
-    left: 120px;
-    font-size: x-large;
-}
-footer section p {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    font-size: larger;
-    width: 600px;
+
+ footer section h3 {
+     position:absolute ;
+     top: 0px;
+     left:120px;
+     font-size: x-large;
+
+ }
+
+ footer section p{
+   position:absolute ;
+   top: 30px;
+   left:120px;
+   font-size:x-large ;
+   width:600px;
+
+ }
+
+ footer button{
+     position: absolute;
+     right: 0px;
+     top:25px;
+     padding: 20px;
+     
+     font-size: large;
+     color: white;
+     background-color:rgb(153, 47, 47);
+     border:rosybrown;
+ 
+
 }
 
-footer button{
-    position: absolute;
-    right: 0px;
-    top: 25px;
-    padding: 20px;
-    font-size: x-large;
-    color: white;
-    background-color: rgb(117, 13, 13);
-    border: none;
-}
 footer div .last{
-    position: absolute;
+   position: absolute;
 
 }
+
 .div{
-    position: absolute;
-    left: 500px;
-    top :190px;
-    color: rgb(51, 48, 48);
+   position: absolute;
+   left: 700px;
+   top:150px;
+   color:lightgray;
+}
 
-}
 .small{
-    position: absolute;
-    left: 700px;
-    bottom: 20px;
-    width: 50px;
-    top: 80 px;
+   position: absolute;
+   left: 800px;
+   width:50px;
+   top:80px;
 }
+
