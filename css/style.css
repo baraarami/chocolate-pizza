@@ -7,6 +7,7 @@ header{
     height: 90px;
 }
 
+
 nav h1{
     
     position: relative;
@@ -14,25 +15,26 @@ nav h1{
     left: 70px;
     font-family: 'Kaushan Script', cursive;
 
-}
 #logo{
     width: 60px;
     height: 60px;
 }
 
 .par1{
+
   position: relative;
   bottom: 10px;
+
     left: 70px;
 }
-
-
 
 .headerIMG {
     position:absolute;
     right: 60px;
     top: 20px;
 }
+
+
 
 ul li {
     display: inline;
@@ -54,7 +56,7 @@ ul li {
     color: lightgrey;
     position: absolute;
     top: 60px;
-}
+
 
 main {
     position: relative;
@@ -126,8 +128,15 @@ button{
     text-decoration: line-through;
 }
 
-footer img {
-    width: 100px;
+
+
+
+
+
+footer  img{
+    width:100px;
+    
+
 }
 
 footer{
